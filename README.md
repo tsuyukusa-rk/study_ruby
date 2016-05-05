@@ -1,7 +1,7 @@
 # study_ruby
 rubyの勉強用
 
-### learningRuby
+## learningRuby
 
 ##### メモ
 ・ブロックはクロージャ、メソッドはクロージャではない  
@@ -12,7 +12,7 @@ rubyの勉強用
 ・ブロックとメソッドについての解説  
 http://qiita.com/kidach1/items/15cfee9ec66804c3afd2
 
-### Ruby on Rails
+## Ruby on Rails
 
 ##### 環境
 ・Ruby  
