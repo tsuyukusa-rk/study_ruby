@@ -53,4 +53,8 @@ Rails.application.routes.draw do
   #     # (app/controllers/admin/products_controller.rb)
   #     resources :products
   #   end
+
+  # :actionはindexの場合、デフォルトで省略可となっている
+  match ':controller(/:action(/:id))', via: [ :get, :post, :patch ]
+
 end
