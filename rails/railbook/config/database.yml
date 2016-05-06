@@ -23,3 +23,8 @@ test:
 production:
   <<: *default
   database: db/production.sqlite3
+
+# モデル生成のコマンド
+# rails generate model book isbn:string title:string price:integer publish:string published:date cd:boolean
+
+# テーブル生成や修正にはマイグレーション機能を使用している
