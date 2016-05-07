@@ -20,4 +20,15 @@ class HelloController < ApplicationController
         # デフォルトは コントローラクラス名/アクションメソッド名
         # render "hello/special"
     end
+    # レコード取得
+    def list
+        # モデルクラスのBookオブジェクトのallメソッドを呼び出す
+        @books = Book.all
+    end
+    def app_var
+        render text: MY_APP["logo"]["source"]
+    end
 end
+
+# rake notes
+# 対象ディレクトリ内から# TODO,FIXMEを探して列挙してくれる
