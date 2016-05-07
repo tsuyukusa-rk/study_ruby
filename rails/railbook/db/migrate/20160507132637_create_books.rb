@@ -12,6 +12,3 @@ class CreateBooks < ActiveRecord::Migration
     end
   end
 end
-
-# マイグレーションファイルの実行
-# rake db:migrate
